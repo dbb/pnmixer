@@ -36,6 +36,22 @@ Download
 Latest version can always be found at:
 [https://github.com/nicklan/pnmixer/downloads](https://github.com/nicklan/pnmixer/downloads)
 
+Dependencies
+------------
+
+Development files from the following libraries are required to build PNMixer
+from source:
+
+* glib2.0
+* gtk+2.0
+
+To install them (on a Debian-based system, for example) run:
+
+    aptitude install libglib2.0-dev libgtk2.0-dev
+
+In total, these packages and their dependencies will require approximately 
+**40MB** of disk space, but they can be uninstalled after compilation is 
+complete.
 
 Compilation and Install
 -----------------------
